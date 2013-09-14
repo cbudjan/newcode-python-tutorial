@@ -27,3 +27,14 @@ def parse(raw_file, delimiter):
     # Build a data structure to return parsed_data
 
     return parsed_data
+
+def main():
+    # Call our parse function and give it the needed parameters
+    new_data = parse(MY_FILE, ",")
+
+    # show parsed data
+    print new_data
+
+if __name__ == "__main__":
+    main()
+
